@@ -41,7 +41,7 @@ knowledge of the CeCILL license and that you accept its terms.
 #ifndef GRAPH_UTILS_H
 #define GRAPH_UTILS_H
 
-#define epsilon 0.00001
+#define EPSILON 0.00001
 #define MAX_DEGREE 3000
 #define SIZE_MAX_PLATEAU 1800000
 typedef float DBL_TYPE;

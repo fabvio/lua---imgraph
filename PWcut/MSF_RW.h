@@ -270,7 +270,7 @@ subject to data constraints */
 		{
 		  x = LCVP[j];
 		  xr = element_find(x, Fth);
-		  if(fabs( G->Solution[i][xr]-val)>epsilon &&  G->Solution[i][xr]>=0 ) 
+		  if(fabs( G->Solution[i][xr]-val)>EPSILON &&  G->Solution[i][xr]>=0 ) 
 		    {
 		      p++; val =  G->Solution[i][xr]; 
 		    }
